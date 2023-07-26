@@ -2,20 +2,20 @@
 > Gerenciador de reuniões.
 
 <nav>
-<h2>Sumário</h2>
-<ul>
-<li><a href="#intro">Introdução</a></li>
-<li><a href="#install">Instalação</a></li>
-<li><a href="#structure">Estrutura</a></li>
-<li><a href="#docs">Documentos</a></li>
-<li><a href="#contribution">Contribuição</a></li>
-</ul>
+    <h2>Sumário</h2>
+    <ul>
+        <li><a href="#intro">Introdução</a></li>
+        <li><a href="#install">Instalação</a></li>
+        <li><a href="#structure">Estrutura</a></li>
+        <li><a href="#docs">Documentos</a></li>
+        <li><a href="#contribution">Contribuição</a></li>
+    </ul>
 </nav>
 
 <section id="intro">
-<h2>Introdução</h2>
-<p>Este projeto é uma ideia que surgiu a partir de um interesse comum de um grupo de alunos do 1000devs 2023, com o objetivo de trabalhar juntos em um projeto e compartilhar um repositório aqui no GitHub.</p>
-<p>O sistema desenvolvido é um projeto Fullstack (Front-end e Back-end) que consiste em uma plataforma web na qual os usuários cadastrados podem sugerir e agendar reuniões sobre diversos assuntos. Os outros usuários podem comentar e confirmar presença nas reuniões marcadas.</p>
+    <h2>Introdução</h2>
+    <p>Este projeto é uma ideia que surgiu a partir de um interesse comum de um grupo de alunos do 1000devs 2023, com o objetivo de trabalhar juntos em um projeto e compartilhar um repositório aqui no GitHub.</p>
+    <p>O sistema desenvolvido é um projeto Fullstack (Front-end e Back-end) que consiste em uma plataforma web na qual os usuários cadastrados podem sugerir e agendar reuniões sobre diversos assuntos. Os outros usuários podem comentar e confirmar presença nas reuniões marcadas.</p>
 </section>
 
 <section id="install">
