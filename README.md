@@ -22,16 +22,17 @@
 <h2>Instalação</h2>
 <p>Para instalar e executar o projeto, siga os passos abaixo:</p>
 
-1. Vá até o diretório que deseja instalar o projeto, abra o terminal e execute o seguinte comando:
+<h3>1. Vá até o diretório que deseja instalar o projeto, abra o terminal e execute o seguinte comando:</h3>
+
 ```bash
 git clone https://github.com/ernestoborges/projeto-mesttra.git
 ```
-<p>Dessa forma você terá a cópia mais recente do projeto no diretório que você executou o comando anterior.</p>
+> <p>Ao final disso você terá a cópia mais recente do projeto no diretório que você executou o comando anterior.</p>
 
-2. Instalando e executando o backend
+<h3>2. Instalando e executando o backend</h3>
 No terminal, navegue até o diretório raiz do projeto com o seguinte comando:
 
-```
+```bash
 cd projeto-mesttra/server
 ```
 
@@ -43,26 +44,26 @@ npm install
 
 Para iniciar o servidor backend localmente (http://localhost:3000), digite o comando:
 
-```
+```bash
 npm start
 ```
 
-3. Instalando e executando o frontend
+<h3>3. Instalando e executando o frontend</h3>
 Ainda no terminal, do diretório 'server', navegue para o diretório do frontend com o seguinte comando:
 
-```
+```bash
 cd ../client
 ```
 
 Logo em seguida digite o seguinte comando para instalar as dependências do projeto:
 
-```
+```bash
 npm install
 ```
 
 Para iniciar o servidor frontend localmente (http://localhost:5173), digite o comando:
 
-```
+```bash
 npm run dev
 ```
 
