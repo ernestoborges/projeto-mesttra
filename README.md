@@ -5,6 +5,7 @@
 <h2>Sumário</h2>
 <ul>
 <li><a href="#intro">Introdução</a></li>
+<li><a href="#install">Instalação</a></li>
 <li><a href="#structure">Estrutura</a></li>
 <li><a href="#docs">Documentos</a></li>
 <li><a href="#contribution">Contribuição</a></li>
@@ -15,6 +16,59 @@
 <h2>Introdução</h2>
 <p>Este projeto é uma ideia que surgiu a partir de um interesse comum de um grupo de alunos do 1000devs 2023, com o objetivo de trabalhar juntos em um projeto e compartilhar um repositório aqui no GitHub.</p>
 <p>O sistema desenvolvido é um projeto Fullstack (Front-end e Back-end) que consiste em uma plataforma web na qual os usuários cadastrados podem sugerir e agendar reuniões sobre diversos assuntos. Os outros usuários podem comentar e confirmar presença nas reuniões marcadas.</p>
+</section>
+
+<section id="install">
+<h2>Instalação</h2>
+<p>Para instalar e executar o projeto, siga os passos abaixo:</p>
+
+<h3>1. Vá até o diretório que deseja instalar o projeto, abra o terminal e execute o seguinte comando:</h3>
+
+```bash
+git clone https://github.com/ernestoborges/projeto-mesttra.git
+```
+> <p>Ao final disso você terá a cópia mais recente do projeto no diretório que você executou o comando anterior.</p>
+
+<h3>2. Instalando e executando o backend</h3>
+No terminal, navegue até o diretório raiz do projeto com o seguinte comando:
+
+```bash
+cd projeto-mesttra/server
+```
+
+Logo em seguida digite o seguinte comando para instalar as dependências do projeto:
+
+```bash
+npm install
+```
+
+Para iniciar o servidor backend localmente (http://localhost:3000), digite o comando:
+
+```bash
+npm start
+```
+
+<h3>3. Instalando e executando o frontend</h3>
+Ainda no terminal, do diretório 'server', navegue para o diretório do frontend com o seguinte comando:
+
+```bash
+cd ../client
+```
+
+Logo em seguida digite o seguinte comando para instalar as dependências do projeto:
+
+```bash
+npm install
+```
+
+Para iniciar o servidor frontend localmente (http://localhost:5173), digite o comando:
+
+```bash
+npm run dev
+```
+
+<p>Dessa forma, você terá o projeto instalado e os servidores backend e frontend executando em suas respectivas portas locais. Agora você pode acessar a aplicação em seu navegador nos endereços http://localhost:3000 (backend) e http://localhost:5173 (frontend).</p>
+
 </section>
 
 <section  id="structure">
