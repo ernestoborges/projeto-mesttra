@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import db from "../db/models";
+import db from "../db/models/index";
 import bcrypt from "bcrypt"
 
 const createUser = async (req: Request, res: Response) => {

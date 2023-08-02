@@ -18,12 +18,6 @@ if (process.env.NODE_ENV === 'development') {
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST,
     dialect: 'mysql',
-    dialectModule: mysql2,
-    dialectOptions: {
-      ssl: {
-        rejectUnauthorized: true,
-      },
-    },
   });
 } else if (process.env.NODE_ENV === 'production') {
   sequelize = new Sequelize({
