@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import db from "../db/models/index";
 import bcrypt from "bcrypt"
+const db = require("../db/models").default;
 
 const createUser = async (req: Request, res: Response) => {
     try {
