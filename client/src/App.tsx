@@ -14,6 +14,7 @@ export function App() {
         if (isFirstConnection) {
           setIsFirstConnection(false);
         }
+        console.log(response)
       })
       .catch(error => {
         console.log(`Erro ao conectar com servidor: ${error}`);
