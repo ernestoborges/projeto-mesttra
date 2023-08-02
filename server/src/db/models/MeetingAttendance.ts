@@ -16,11 +16,11 @@ module.exports = (sequelize: any, DataTypes: any) => {
   
   MeetingAttendance.init({
     meetingId: {
-      type: DataTypes.UUIDV4,
+      type: DataTypes.UUID,
       allowNull: false,
     },
     userId: {
-      type: DataTypes.UUIDV4,
+      type: DataTypes.UUID,
       allowNull: false,
     },
   }, {
